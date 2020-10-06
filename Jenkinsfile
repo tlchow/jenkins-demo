@@ -1,4 +1,4 @@
-node('jenkins-slave') {
+node('jenkins-slave-wrong') {
     stage('Prepare') {
         echo "1.Prepare Stage"
         checkout scm
